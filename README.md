@@ -20,6 +20,8 @@ PacketTypes:
 4 - ACK WITH NO RESPONSE REQUIRED
 
 SYN and ACK are just fancy GET requests. Their payloads are the console log outputs.
+
+
 Step 1 - Run echo server
 python3 httpfs.py --port 8007
 
